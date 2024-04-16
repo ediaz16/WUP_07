@@ -31,7 +31,7 @@ state of a patient must be died or alive - we adjust that as well
 
 $H_0:$ There is no difference in death rate based on sex
 
-$H_A:$
+$H_A:$ There is a difference in the death rate based on Sex
 
 
 
@@ -53,7 +53,7 @@ barchartGC(~result+ Sex,data=kRdata, type="percent")
 
 ```
 
-This chart shows that 
+This chart shows that male death is higher on average being 60% and female average below 40%
   
 
 
@@ -69,7 +69,7 @@ rowPerc(table1)
 colPerc(table1)
 ```
 
-This table shows that....
+This table shows the average male deaths are higher than female deaths at 64 deaths vs female death 36.
 
 ## Inferential results 
 
@@ -79,7 +79,7 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-Te chi-squared test shows P value for table 1 is .001 show ther is not a significate difference This means there is not a difference in death rate based on Sex.
+The chi-squared test shows P value for table 1 is .001 show there is a significant difference this means there is not a difference in death rate based on Sex.
 
 The p value on the Fisher Exact test is 0.0000000009.
 
