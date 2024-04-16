@@ -54,11 +54,6 @@ barchartGC(~result+ Sex,data=kRdata, type="percent")
 ```
 
 This chart shows that male death is higher on average being 60% and female average below 40%
-  
-
-
-
-
 
   
 ## Numerical results
@@ -79,7 +74,7 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
-The chi-squared test shows P value for table 1 is .001 show there is a significant difference this means there is not a difference in death rate based on Sex.
+The chi-squared test shows P value for table 1 is .001 show there is a significant difference this means there is a difference in death rate based on Sex.
 
 The p value on the Fisher Exact test is 0.0000000009.
 
@@ -91,8 +86,8 @@ The odds ratio is 2.3:1 this means
 
 The original question was was "is there a difference in death rate in the Korean data set based on Sex?
 
-The plot indicaed ...
+The plot indicates that male death is higher on average being 60% and female average below 40%
 
-The numericaL result was that ....
 
-and we found a significant death rate differnce due to Sex was not significant 
+The numericaL result shows the average male deaths are higher than female deaths at 64 deaths vs female death 36.
+and we found there is a significant death rate difference due to Sex.
